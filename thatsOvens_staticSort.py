@@ -56,7 +56,7 @@ def insertion_sort(arr, n):
 def thatsOvens_staticSort(a):
     M = max(a)
     size = len(a)
-    constant = M/(size+2)
+    constant = size/(M+2)
     counter = 0
     listcount = 0
     while listcount < size:
