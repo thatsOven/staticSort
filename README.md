@@ -3,9 +3,14 @@ DISCLAIMER: This sort is still a prototype and the code could not be working pro
 Time complexity:
 
 
-Best/average case: O(n)
+Best case: O(n)
+
+Average case: O(n + k)
 
 Worst case: O(n log n)
 
 
 Space complexity = O(1)
+
+
+"k" is 0 when the array is made up of all unique items and when max < n
