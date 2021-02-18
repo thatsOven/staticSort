@@ -10,7 +10,7 @@ Average case: O(n + k)
 Worst case: O(n log n)
 
 
-Space complexity = O(1)
+Space complexity = O(1) + n pointers
 
 
 "k" is 0 when the array is made up of all unique items and when max < n
