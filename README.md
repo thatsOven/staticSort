@@ -1,5 +1,6 @@
 # staticSort
 time complexity:
+
 best case = O(n)
 
 average case = O(n + k)
