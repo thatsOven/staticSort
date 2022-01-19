@@ -64,7 +64,7 @@ def staticSort(array, a, b):
     count  = [0 for _ in range(auxLen + 1)]
     offset = [0 for _ in range(auxLen + 1)]
 
-    CONST = auxLen / (max_ - min_ + 4)
+    CONST = auxLen / (max_ - min_ + 1)
 
     for i in range(a, b):
         count[int((array[i] - min_) * CONST)] += 1
