@@ -3,7 +3,7 @@ time complexity:
 
 best case = O(n)
 
-average case = O(n + s)
+average case = O(n) + s
 
 where s is best approximated like this and is a number between n and n log n:
 
